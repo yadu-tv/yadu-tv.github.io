@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Mona-Sans';
+    src:
+      url('/fonts/mona-sans/Mona-Sans.woff2') format('woff2 supports variations'),
+      url('/fonts/mona-sans/Mona-Sans.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-stretch: 75% 125%;
+}
+
+@font-face {
+font-family: 'Hubot-Sans';
+src:
+    url('/fonts/hubot-sans/Hubot-Sans.woff2') format('woff2 supports variations'),
+    url('/fonts/hubot-sans/Hubot-Sans.woff2') format('woff2-variations');
+font-weight: 200 900;
+font-stretch: 75% 125%;
+}
+
+body {
+    background-color: rgb(14,17,22);
+    color: rgb(202, 209, 216);
+    font-family: 'Hubot-Sans';
+}
+
+.box {
+    height: 95vh;
+    border: 1px solid rgb(49, 54, 60);
+    border-radius: 5px;
+}
+
+.codeBlock {
+    line-height: 1.25;
+    padding: 10px;
+    display: inline-block;
+    background-color: rgb(23, 27, 33);
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid rgb(49, 54, 60);
+    border-radius: 5px;
+}
+
+.social {
+    display: inline-block;
+    line-height: 1.25;
+}
+
+.discordBlock {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(23, 27, 33);
+    border: 1px solid rgb(49, 54, 60);
+    border-radius: 5px;
+}
+
+.linkedinBlock {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(23, 27, 33);
+    border: 1px solid rgb(49, 54, 60);
+    border-radius: 5px;
+}
+
+.twitterBlock {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(23, 27, 33);
+    border: 1px solid rgb(49, 54, 60);
+    border-radius: 5px;
+}
