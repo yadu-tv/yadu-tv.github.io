@@ -1,3 +1,5 @@
+/* fonts */
+
 @font-face {
     font-family: 'Mona-Sans';
     src:
@@ -6,6 +8,8 @@
     font-weight: 200 900;
     font-stretch: 75% 125%;
 }
+
+/* animations */
 
 @keyframes fadeIn {
     0% { opacity: 0; }
@@ -17,7 +21,16 @@
     100% { opacity: 0; }
 }
 
+/* css */
+
+* { padding: 0; margin: 0; }
+
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     background-color: rgb(14,17,22);
     color: rgb(202, 209, 216);
     font-family: 'Hubot-Sans';
@@ -72,15 +85,13 @@ body {
 }
 
 .social {
-    display: inline-block;
     line-height: 1.25;
-    align-items: middle;
     height: 100vh;
-    align-items: center
+    align-items: center;
 }
 
 .discordBlock {
-    display: table-cell;
+    display: inline-block;
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
@@ -89,9 +100,9 @@ body {
     float: left;
     height: 25vh;
     margin-bottom: 5%;
-    width: 90vw;
     justify-content: center;
     text-align: center;
+    width: 90vw;
     vertical-align: middle;
 }
 
@@ -101,6 +112,7 @@ body {
 }
 
 .linkedinBlock {
+    display: inline-block;
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
@@ -109,10 +121,10 @@ body {
     float: left;
     height: 25vh;
     margin-bottom: 5%;
-    width: 90vw;
     justify-content: center;
     text-align: center;
     vertical-align: middle;
+    width: 90vw;
 }
 
 .linkedin-text {
@@ -121,6 +133,7 @@ body {
 }
 
 .twitterBlock {
+    display: inline-block;
     padding: 10px;
     background-color: rgb(23, 27, 33);
     border-radius: 5px;
@@ -129,10 +142,10 @@ body {
     margin-right: 10px;
     height: 25vh;
     margin-bottom: 5%;
-    width: 90vw;
     justify-content: center;
     text-align: center;
     vertical-align: middle;
+    width: 90vw;
 }
 
 .twitter-text {
