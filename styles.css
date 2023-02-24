@@ -7,13 +7,14 @@
     font-stretch: 75% 125%;
 }
 
-@font-face {
-font-family: 'Hubot-Sans';
-src:
-    url('/fonts/hubot-sans/Hubot-Sans.woff2') format('woff2 supports variations'),
-    url('/fonts/hubot-sans/Hubot-Sans.woff2') format('woff2-variations');
-font-weight: 200 900;
-font-stretch: 75% 125%;
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    100% { opacity: 1; }
+    100% { opacity: 0; }
 }
 
 body {
@@ -22,51 +23,104 @@ body {
     font-family: 'Hubot-Sans';
 }
 
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
 .box {
-    height: 95vh;
-    border: 1px solid rgb(49, 54, 60);
-    border-radius: 5px;
+    margin-top: 50vh;
+    height: 100vh;
+    transform: translateZ(0);
+    background-color: rgb(14,17,22);
+    color: rgb(202, 209, 216);
+}
+
+.box.visible {
+    opacity: 1;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.a-little-about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
 }
 
 .codeBlock {
+    display: flex;
+    flex-direction: column;
     line-height: 1.25;
-    padding: 10px;
-    display: inline-block;
-    background-color: rgb(23, 27, 33);
     margin-left: 10px;
     margin-right: 10px;
+    height: 100vh;
+    align-items: center;
+    font-size: 18px;
+    /*
     border: 1px solid rgb(49, 54, 60);
     border-radius: 5px;
+     */
 }
 
 .social {
     display: inline-block;
     line-height: 1.25;
+    align-items: middle;
+    height: 100vh;
+    align-items: center
 }
 
 .discordBlock {
     padding: 10px;
     margin-left: 10px;
-    margin-right: 10px;
     background-color: rgb(23, 27, 33);
-    border: 1px solid rgb(49, 54, 60);
     border-radius: 5px;
+    float: left;
+    height: 25%;
+    margin-bottom: 5%;
+    width: 90vw;
+}
+
+.discord-text {
+    color: rgb(241, 168, 100);
+    font-size: 4em;
 }
 
 .linkedinBlock {
     padding: 10px;
     margin-left: 10px;
-    margin-right: 10px;
     background-color: rgb(23, 27, 33);
-    border: 1px solid rgb(49, 54, 60);
     border-radius: 5px;
+    float: left;
+    height: 25%;
+    margin-bottom: 5%;
+    width: 90vw;
+}
+
+.linkedin-text {
+
 }
 
 .twitterBlock {
     padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
     background-color: rgb(23, 27, 33);
-    border: 1px solid rgb(49, 54, 60);
     border-radius: 5px;
+    float: left;
+    margin-left: 10px;
+    height: 25%;
+    margin-bottom: 5%;
+    width: 90vw;
+}
+
+.twitter-text {
+
 }
