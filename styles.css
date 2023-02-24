@@ -80,14 +80,19 @@ body {
 }
 
 .discordBlock {
+    display: table-cell;
     padding: 10px;
     margin-left: 10px;
+    margin-right: 10px;
     background-color: rgb(23, 27, 33);
     border-radius: 5px;
     float: left;
-    height: 25%;
+    height: 25vh;
     margin-bottom: 5%;
     width: 90vw;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .discord-text {
@@ -98,16 +103,21 @@ body {
 .linkedinBlock {
     padding: 10px;
     margin-left: 10px;
+    margin-right: 10px;
     background-color: rgb(23, 27, 33);
     border-radius: 5px;
     float: left;
-    height: 25%;
+    height: 25vh;
     margin-bottom: 5%;
     width: 90vw;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .linkedin-text {
-
+    color: rgb(241, 168, 100);
+    font-size: 4em;
 }
 
 .twitterBlock {
@@ -116,11 +126,16 @@ body {
     border-radius: 5px;
     float: left;
     margin-left: 10px;
-    height: 25%;
+    margin-right: 10px;
+    height: 25vh;
     margin-bottom: 5%;
     width: 90vw;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .twitter-text {
-
+    color: rgb(241, 168, 100);
+    font-size: 4em;
 }
