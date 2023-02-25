@@ -1,5 +1,4 @@
 /* fonts */
-
 @font-face {
     font-family: 'Mona-Sans';
     src:
@@ -10,51 +9,125 @@
 }
 
 /* animations */
-
+@keyframes zoomIn {
+    0% { font-size: 17px; }
+    100% { font-size: 23px; }
+}
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
-
 @keyframes fadeOut {
     0% { opacity: 1; }
     100% { opacity: 0; }
+}
+@keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
 }
 
 /* css */
 
 * { padding: 0; margin: 0; }
-
 html {
     height: 100%;
 }
-
+html::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+    display: none;
+    font-family: 'Hubot-Sans';
+}
 body {
     height: 100%;
     background-color: rgb(14,17,22);
     color: rgb(202, 209, 216);
-    font-family: 'Hubot-Sans';
 }
 
 a { color: inherit; } 
 
 /* classes */
-
 .container {
     width: 100vw;
     height: 100vh;
 }
-
+.navbar {
+    position: absolute;
+    overflow: hidden;
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(14,17,22);
+    display: block;
+}
+.home {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    color: rgb(202, 209, 216);
+    text-decoration: none;
+    font-size: 17px;
+}
+.about {
+    box-sizing: border-box;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    color: rgb(202, 209, 216);
+    text-decoration: none;
+    font-size: 17px;
+}
+.contact {
+    box-sizing: border-box;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    color: rgb(202, 209, 216);
+    text-decoration: none;
+    font-size: 17px;
+}
 .name {
+    display: inline;
+    top: 50%;
+    left: 50%;
+}
+.name .name-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     height: 100vh;
+}
+.scroll-downs {
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    bottom: 5%;
+    width :34px;
+    height: 55px;
+    transform: scale(0.5);
     animation-name: fadeIn;
     animation-duration: 5s;
 }
-
+.mousey {
+    width: 3px;
+    padding: 10px 15px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+}
+.scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+}
 .about-me {
     display: flex;
     flex-direction: column;
@@ -62,7 +135,6 @@ a { color: inherit; }
     text-align: center;
     height: 100vh;
 }
-
 .code-block {
     margin-top: 50vh;
     height: 100vh;
@@ -76,13 +148,11 @@ a { color: inherit; }
     margin-right: 10px;
     height: 100vh;
     align-items: center;
-    font-size: 18px;
+    font-size: 1.2em;
 }
-
 .social {
     display: flex;
     height: 100vh;
-    width: 100vw;
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
