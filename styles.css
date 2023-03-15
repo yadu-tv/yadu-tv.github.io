@@ -44,6 +44,7 @@ body {
     height: 100%;
     background-color: rgb(14,17,22);
     color: rgb(202, 209, 216);
+    font-family: 'Montserrat', sans-serif;
 }
 
 a { color: inherit; } 
