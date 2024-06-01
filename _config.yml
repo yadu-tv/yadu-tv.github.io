@@ -19,8 +19,8 @@ author:
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
 # URL settings
-url: "https://klise.now.sh" #
-baseurl:
+url: "https://yadu-tv.github.io" #
+baseurl:  "https://yadu-tv.github.io"
 permalink: /:title/
 google_analytics: # leave it blank if not wish
 fb_appid:
