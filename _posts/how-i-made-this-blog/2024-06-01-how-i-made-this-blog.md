@@ -1,0 +1,1 @@
+This post talks about what motivated me, and how I made this blog site.
