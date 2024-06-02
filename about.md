@@ -10,7 +10,7 @@ I'm a student from VIT, Chennai. The blog is for documenting my programming 🎒
 
 Feel free to reach me out!
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
+You can [report](https://github.com/yadu-tv/yadu-tv.github.io/issues/new) if there is an broken link(s) or somethings else.
 
 **Contact**
 
