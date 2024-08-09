@@ -1,10 +1,10 @@
 ---
-title: Identify plastic using multispectral images
+title: Idenpngy plastic using multispectral images
 date: 2024-08-09 22:00:00 +05:30
 description: This article talks about how me and my team made use of multispectral drone cameras to effectively detect plastic.
 ---
 
-I am currently working on a research paper on identifying plastic from multispectral images. Github repository to the research can be found [here](https://github.com/Deceptrax123/Plastic-Detection-using-Reflectance-Images-of-Hyperspectral-Bands)
+I am currently working on a research paper on idenpngying plastic from multispectral images. Github repository to the research can be found [here](https://github.com/Deceptrax123/Plastic-Detection-using-Reflectance-Images-of-Hyperspectral-Bands)
 
 #### What is multispectral images? 
 
@@ -24,26 +24,26 @@ We made use of a [DJI P4 multispectral](https://www.dji.com/global/p4-multispect
 Below given are 6 images of the same scene
 
 <figure>
-    <img src="assets/rgb.JPG" alt="RGB image">
+    <img src="assets/rgb.png" alt="RGB image">
     <figcaption>Fig 1. RGB image</figcaption>
 </figure>
 <figure>
-    <img src="assets/r.TIF" alt="Red image">
+    <img src="assets/r.png" alt="Red image">
     <figcaption>Fig 2. Red image</figcaption>
 </figure>
 <figure>
-    <img src="assets/g.TIF" alt="Green image">
+    <img src="assets/g.png" alt="Green image">
     <figcaption>Fig 3. Green image</figcaption>
 </figure>
 <figure>
-    <img src="assets/b.TIF" alt="Blue image">
+    <img src="assets/b.png" alt="Blue image">
     <figcaption>Fig 4. Blue image</figcaption>
 </figure>
 <figure>
-    <img src="assets/red_edge.TIF" alt="Red-Edge image">
+    <img src="assets/red_edge.png" alt="Red-Edge image">
     <figcaption>Fig 5. Red-Edge image</figcaption>
 </figure>
 <figure>
-    <img src="assets/nir.TIF" alt="NIR image">
+    <img src="assets/nir.png" alt="NIR image">
     <figcaption>Fig 1. Near-Infrared (NIR) image</figcaption>
 </figure>
