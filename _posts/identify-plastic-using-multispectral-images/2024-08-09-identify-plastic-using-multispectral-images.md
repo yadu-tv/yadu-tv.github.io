@@ -24,11 +24,11 @@ We made use of a [DJI P4 multispectral](https://www.dji.com/global/p4-multispect
 Below given are 6 images of the same scene
 
 <figure>
-    <img src="./assets/rgb.png" alt="RGB image">
+    <img src="/_posts/identify-plastic-using-multispectral-images/rgb.png" alt="RGB image">
     <figcaption>Fig 1. RGB image</figcaption>
 </figure>
 <figure>
-    <img src="./assets/r.png" alt="Red image">
+    <img src="/identify-plastic-using-multispectral-images/r.png" alt="Red image">
     <figcaption>Fig 2. Red image</figcaption>
 </figure>
 <figure>
