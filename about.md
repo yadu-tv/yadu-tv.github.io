@@ -17,6 +17,6 @@ You can [report](https://github.com/yadu-tv/yadu-tv.github.io/issues/new) if the
 
 **Contact**
 
-- [E-mail](mailto:yaduk.tv@gmail.com)
-- [Github](https://www.github.com/yadu-tv)
-- [LinkedIn](https://www.linkedin.com/in/yadu-tv)
+- <a href="mailto:yaduk.tv@gmail.com" target="_blank">E-mail</a>
+- <a href="https://www.github.com/yadu-tv" target="_blank">Github</a>
+- <a href="https://www.linkedin.com/in/yadu-tv" target="_blank">LinkedIn</a>
