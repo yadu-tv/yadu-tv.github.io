@@ -1,18 +1,22 @@
 ---
-title: Colophon
+title: About
 permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
 comments: false
 ---
 
-I'm a student from VIT, Chennai. The blog is for documenting my programming 🎒 journey, I love to learn new technologies; but I often forgots to watch the latest demon slayer episode.
+Hello! I'm currently a Senior at VIT Chennai, pursuing a Bachelor's degree in Technology with a focus on Computer Science, specializing in Artificial Intelligence and Machine Learning. Alongside my studies, I work part-time as a Software Engineer at [Seedefy](https://www.seedefy.com/), a dynamic company based in Singapore. My journey in the tech world has also taken me through roles at [Tisac](https://www.tisac.in/), an innovative Indian startup, and [Loominate](https://www.loominate.app/), a startup from Singapore.
 
-Feel free to reach me out!
+My primary passion lies in developing full-stack applications, with a particular emphasis on front-end development using React. I’m dedicated to honing my skills in Data Structures and Algorithms (DSA) and system design, as I prepare for future job opportunities. Additionally, I am deeply fascinated by Linux, enjoying the freedom it offers for customization and exploration, and I have a strong interest in computer networks.
+
+Currently, I'm engaged in exciting research on plastic detection using multispectral cameras, and I’m working on several machine learning projects that push the boundaries of innovation. I thrive on meeting new people and building connections, so feel free to reach out to me on LinkedIn—just drop me a note!
+
+I’m always open to new opportunities and collaborations, so don’t hesitate to get in touch.
 
 You can [report](https://github.com/yadu-tv/yadu-tv.github.io/issues/new) if there is an broken link(s) or somethings else.
 
 **Contact**
 
-- {{ site.author.email }}
-- github.com/{{ site.author.github }}
+- [E-mail](mailto:yaduk.tv@gmail.com)
+- [Github](https://www.github.com/yadu-tv)
+- [LinkedIn](https://www.linkedin.com/in/yadu-tv)
