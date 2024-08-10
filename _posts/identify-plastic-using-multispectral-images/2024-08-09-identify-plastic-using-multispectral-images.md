@@ -21,29 +21,4 @@ We made use of a [DJI P4 multispectral](https://www.dji.com/global/p4-multispect
 5. Red edge image
 6. Near-Infrared image
 
-Below given are 6 images of the same scene
-
-<figure>
-    <img src="/_posts/identify-plastic-using-multispectral-images/rgb.png" alt="RGB image">
-    <figcaption>Fig 1. RGB image</figcaption>
-</figure>
-<figure>
-    <img src="/identify-plastic-using-multispectral-images/r.png" alt="Red image">
-    <figcaption>Fig 2. Red image</figcaption>
-</figure>
-<figure>
-    <img src="./assets/g.png" alt="Green image">
-    <figcaption>Fig 3. Green image</figcaption>
-</figure>
-<figure>
-    <img src="./assets/b.png" alt="Blue image">
-    <figcaption>Fig 4. Blue image</figcaption>
-</figure>
-<figure>
-    <img src="./assets/red_edge.png" alt="Red-Edge image">
-    <figcaption>Fig 5. Red-Edge image</figcaption>
-</figure>
-<figure>
-    <img src="./assets/nir.png" alt="NIR image">
-    <figcaption>Fig 1. Near-Infrared (NIR) image</figcaption>
-</figure>
+You can visit here to see all the six images.
