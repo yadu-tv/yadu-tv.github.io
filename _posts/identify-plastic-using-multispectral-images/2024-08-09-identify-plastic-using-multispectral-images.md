@@ -21,4 +21,4 @@ We made use of a [DJI P4 multispectral](https://www.dji.com/global/p4-multispect
 5. Red edge image
 6. Near-Infrared image
 
-You can visit here to see all the six images.
+You can visit [here](https://github.com/yadu-tv/yadu-tv.github.io/tree/main/_posts/identify-plastic-using-multispectral-images) to see all the six images.
