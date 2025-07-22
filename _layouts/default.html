@@ -27,12 +27,14 @@ layout: compress
   </script>
 
   {% include navbar.html %}
+  
   <div class="wrapper">
     {% include author.html %}
     <main aria-label="Content">
       {{ content }}
     </main>
-    {% include footer.html %}
   </div>
+  
+  {% include footer.html %}
 </body>
 </html>
