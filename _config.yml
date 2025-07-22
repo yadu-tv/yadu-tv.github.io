@@ -10,13 +10,12 @@ mode: dark # default theme "dark" | "light"
 # Profile settings
 author:
   name: Yadu Krishnan 
-  bio: |
-    Welcome to my blog! I write about tech, coding, and my adventures as a developer.
-    If you’re into software engineering, machine learning, or just want to chat, you’re in the right place.
+  bio: >- 
+    Welcome to my blog! I write about tech, coding, and my adventures as a developer. If you’re into software engineering, machine learning, or just want to chat, you’re in the right place. 
     Want to connect? Find me on Discord as just.oat – always open to chat!
-    github: yadu-tv 
-    email: yaduk.tv@gmail.com 
-    avatar: /assets/img/avatar.png 
+  github: yadu-tv 
+  email: yaduk.tv@gmail.com 
+  avatar: /assets/img/avatar.png 
 
 # URL settings
 url: "https://yadu-tv.github.io" #
